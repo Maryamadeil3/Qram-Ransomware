@@ -1,7 +1,7 @@
 # Ideal QRAM loading on ransomware detection — code and reproduction
 
 Code for the experiments in *"Ideal quantum random-access memory loading yields classically equivalent models
-for ransomware detection"* (Abdelmoaty, Sobh & Bahaa-Eldin). It loads all 483 binary behavioural features of
+for ransomware detection"*. It loads all 483 binary behavioural features of
 each MLRan sample into two idealised quantum states (amplitude state on 9 qubits, QRAM address–data state on
 10 qubits), trains variational circuits and exact fidelity-kernel SVMs on them, compares them with tuned
 classical models under two protocols, measures the Qiskit gate cost of loading, and numerically verifies
